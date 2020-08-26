@@ -96,7 +96,8 @@ $(".list-group").on("blur", "textarea", function(){
     .index();
 
   // we're going to save to our local storage like this
-  tasks[status][index].text = text;
+  // tasks[status][index].text = text;
+
   saveTasks();
 
   // Now we want to return the textarea back to normal paragraph by recreating the p
@@ -149,7 +150,7 @@ $(".list-group").on("blur", "input[type='text']", function() {
     .index();
 
   // update task in array and re-save to localstorage
-  tasks[status][index].date = date;
+  // tasks[status][index].date = date;
   saveTasks();
 
   // recreate span element with bootstrap classes
