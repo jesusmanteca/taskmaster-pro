@@ -34,8 +34,13 @@ h6 {
 
 .bottom-trash-drag {
   transform: translateY(0);
-  background-color: rgba(234,0,39,1);
+  opacity: 1;
 }
+
+.bottom-trash-active {
+  background-color: rgba(234, 0, 39, 1);
+}
+
 
 .btn-add, 
 .btn-save {

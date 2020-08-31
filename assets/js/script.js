@@ -159,8 +159,7 @@ $(".list-group").on("change", "input[type='text']", function() {
 
   // replace input with span element
   $(this).replaceWith(taskSpan);
-});
-
+})
 
 // modal was triggered
 $("#task-form-modal").on("show.bs.modal", function() {
@@ -214,7 +213,7 @@ $(".card .list-group").sortable({
   tolerance: "pointer",
   helper: "clone",
   activate: function(event) {
-    $(this).addClass("dropover")
+    $(this).addClass("dropover");
     $(".bottom-trash").addClass("bottom-trash-drag")
   },
   deactivate: function(event) {
